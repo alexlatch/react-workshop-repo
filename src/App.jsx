@@ -1,6 +1,8 @@
 import './App.css'
 import { useState } from 'react'
 import {puppyList} from './data.js'
+import './path-to-css.css'
+
 
 function App() {
   const [puppies, setPuppies] = useState(puppyList)
